@@ -32,5 +32,5 @@ COPY repo/. ./
 # Expose port for development server (if needed for testing)
 EXPOSE 3000
 
-# Default command opens a shell for interactive analysis
-CMD ["/bin/bash"]
+# Default command starts the development server
+CMD ["npm", "run", "dev"]

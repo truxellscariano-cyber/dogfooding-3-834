@@ -1,0 +1,29 @@
+{
+  "task_id": "dogfooding-3-834",
+  "task_name": "Web前端项目代码理解与分析",
+  "task_type": "code_analysis",
+  "description": "对React + Vite项目进行全面的代码理解与分析，包括项目结构、技术栈、代码质量、架构设计、性能风险和可维护性评估",
+  "project_type": "react_vite",
+  "language": "javascript",
+  "framework": "react",
+  "build_tool": "vite",
+  "models_tested": [
+    "Kimi K2.5",
+    "GLM-5.0",
+    "Doubao-Seed-Code-Dogfood-2.1.2"
+  ],
+  "evaluation_dimensions": [
+    "用户体验度",
+    "任务拆分及执行",
+    "理解/推理能力",
+    "复杂指令遵循",
+    "工程完备度"
+  ],
+  "created_date": "2026-04-13",
+  "environment": {
+    "base_image": "node:18-alpine",
+    "working_directory": "/app",
+    "entry_command": "npm run dev",
+    "exposed_port": 3000
+  }
+}
