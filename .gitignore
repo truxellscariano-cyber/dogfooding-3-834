@@ -1,0 +1,5 @@
+.claude/
+.repo_git_backup/
+environment/repo/.git/
+environment/repo/node_modules/
+environment/repo/dist/
